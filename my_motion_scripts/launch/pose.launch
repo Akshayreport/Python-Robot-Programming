@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="my_motion_scripts" type="recordtraj.py" name="move_group_python_interface_tutorial"  output="screen">
+    </node>
+</launch>
